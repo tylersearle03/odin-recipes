@@ -1,17 +1,59 @@
 * {
-   background-color: black;
-   color: white;
+   color: rgb(136, 33, 205);
    text-align: center;
+   box-sizing: border-box;
    
+}
+a {
+   color: rgb(233, 220, 220);
 }
 
 ol {
-     list-style: decimal inside none;
+   list-style: decimal inside none;
+   display: inline-block;
     
 }
 ul {
-    list-style: square;
+   list-style: square;
    list-style-position: inside;
-   
+   display: inline-block;
 
+}
+
+.button-home {
+   display: inline-flexbox;
+}
+
+html, body { 
+   height: 100%;
+   margin: 0%;
+}
+
+.head-card {
+   background-color: rgb(135, 64, 64);
+   padding-left: 600px;
+   width: 100%; 
+   height: 100%; 
+   display: flex; 
+   align-items: center; 
+   justify-content: flex-start; 
+}
+
+.header-image {
+   width: 500px; 
+   height: 700px;
+   margin: 20px; 
+}
+
+
+.home-link-one,
+.home-link-two,
+.home-link-three,
+.home-link-four,
+.home-link-five {
+   color: rgb(47, 27, 68);
+   background-color: #b15757;
+   margin: 10px;
+   padding: 30px;
+   
 }
